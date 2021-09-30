@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PureRoot.Relative"
+    tools:ignore="UseCompoundDrawables,ContentDescription"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginHorizontal="@dimen/App_Margin_Hor_S"
+        style="@style/PureHeader.Scroll"
+        >
+        <LinearLayout
+            style="@style/PureHeader.Linear"
+            >
+            <LinearLayout
+                android:id="@+id/llDownloadingHF"
+                android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                android:visibility="gone"
+                style="@style/PureInfo.Linear"
+                >
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                    android:src="@drawable/gif_downloading"
+                    style="@style/PureInfo.Image"
+                    />
+                <TextView
+                    android:text="@string/Download_Wait"
+                    android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                    style="@style/PureInfo.Text.Content.Card"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFailedDownloadHF"
+                android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                android:visibility="gone"
+                style="@style/PureInfo.Linear"
+                >
+                <ImageView
+                    android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                    android:src="@drawable/img_download_fail"
+                    style="@style/PureInfo.Image"
+                    />
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                    style="@style/PureInfo.Linear.Card"
+                    >
+                    <TextView
+                        android:text="@string/Download_Fail_Title"
+                        android:layout_marginVertical="@dimen/App_Margin_Ver_S"
+                        style="@style/PureInfo.Text.Title"
+                        />
+                    <TextView
+                        android:id="@+id/tvFailedDownloadHF"
+                        android:text="@string/Download_Fail_Connection"
+                        style="@style/PureInfo.Text.Content"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvDownloadAgain"
+                    android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                    android:text="@string/Download_Try_Again"
+                    style="@style/PureButton.Text.Card.Selectable.Center"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvNoUnreadStoryHF"
+                android:layout_margin="@dimen/App_Margin_S"
+                android:text="@string/No_Unread_Story"
+                android:visibility="gone"
+                style="@style/PureInfo.Text.Content.Card"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewHF"
+        android:layout_marginHorizontal="@dimen/App_Margin_Hor_S"
+        style="@style/PureStory.Recycler"
+        />
+</RelativeLayout>

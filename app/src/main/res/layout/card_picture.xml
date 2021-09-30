@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PureStory.Linear.Card.Selectable"
+    tools:ignore="UseCompoundDrawables,ContentDescription"
+    >
+    <TextView
+        android:id="@+id/tvTitlePC"
+        android:layout_marginVertical="@dimen/App_Margin_Ver_M"
+        style="@style/PureStory.Text.Title"
+        />
+    <ImageView
+        android:id="@+id/ivImagePC"
+        android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+        android:src="@drawable/img_story"
+        style="@style/PureStory.Image"
+        />
+</LinearLayout>

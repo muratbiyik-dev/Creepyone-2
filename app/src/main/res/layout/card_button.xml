@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PureButton.Linear.Dialog"
+    >
+    <TextView
+        android:id="@+id/tvTitleBC"
+        android:text="@string/Filter_All"
+        style="@style/PureButton.Text.Card.Selectable.Center"
+        />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PureStory.Linear.Card.Selectable"
+    >
+    <TextView
+        android:id="@+id/tvTitleSC"
+        android:layout_marginVertical="@dimen/App_Margin_Ver_M"
+        style="@style/PureStory.Text.Title"
+        />
+    <TextView
+        android:id="@+id/tvContentSC"
+        android:layout_marginBottom="@dimen/App_Margin_Ver_M"
+        style="@style/PureStory.Text.Content.Intro"
+        />
+    <LinearLayout
+        android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+        style="@style/PureStory.Linear.Horizontal"
+        >
+        <TextView
+            android:id="@+id/tvLengthLabelSC"
+            android:text="@string/Story_Length_Label"
+            style="@style/PureStory.Text.Footer.Label"
+            />
+        <TextView
+            android:id="@+id/tvLengthSC"
+            android:text="@string/Story_Length_Sample"
+            style="@style/PureStory.Text.Footer"
+            />
+    </LinearLayout>
+</LinearLayout>

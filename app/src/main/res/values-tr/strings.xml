@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- region MainActivity -->
+    <!-- region Progress Bar -->
+    <string name="Checking_Stories">"Yeni hikayeler için kontrol ediliyor…"</string>
+    <string name="Downloading_Stories">"Hikayeler indiriliyor…"</string>
+    <!-- endregion -->
+
+    <!-- region App Rating -->
+    <string name="App_Rating_Title">"Uygulamayı derecelendir"</string>
+    <string name="App_Rating_Content">"Creepyone'daki hikayelerden hoşlanıyorsanız, uygulamayı derecelendirmek için biraz zaman ayırır mısınız? Birkaç saniyeden fazla sürmez. Desteğiniz için teşekkür ederim."</string>
+    <string name="App_Rating_Positive">"EVET, ELBETTE"</string>
+    <string name="App_Rating_Negative">"HAYIR, TEŞEKKÜRLER"</string>
+    <string name="App_Rating_Neutral">"DAHA SONRA HATIRLAT"</string>
+    <!-- endregion -->
+
+    <!-- region HomeFragment -->
+    <string name="Home_Title">"Ana Sayfa"</string>
+
+    <string name="Download_Wait">"Lütfen indirmenin bitmesini bekleyin."</string>
+    <string name="Download_Fail_Title">"İndirme Başarısız!"</string>
+    <string name="Download_Fail_Connection">"Lütfen cihazınızın internete bağlı olduğundan emin olun ve tekrar deneyin."</string>
+    <string name="Download_Fail_Server">"Sorun sunucu kaynaklı olabilir. Lütfen daha sonra tekrar deneyin."</string>
+    <string name="Download_Try_Again">"Tekrar Dene"</string>
+
+    <string name="No_Unread_Story">"Okunmamış Hikaye Bulunamadı"</string>
+    <!-- endregion -->
+
+    <!-- region SearchFragment -->
+    <string name="Search_Title">"Arama"</string>
+    <string name="Query_Hint">"Aradığınız bir hikaye mi var?"</string>
+    <string name="No_Result">"Sonuç Bulunamadı"</string>
+    <string name="Random_Story_Title">"Rasgele Hikaye"</string>
+    <!-- endregion -->
+
+    <!-- region ArchiveFragment -->
+    <string name="Archive_Title">"Arşiv"</string>
+    <!-- endregion -->
+    <!-- endregion -->
+
+    <!-- region ListActivity -->
+    <string name="Story_Count">"%d hikaye"</string>
+    <string name="Story_Count_Sample">"8 hikaye"</string>
+
+    <!-- region Popular Stories -->
+    <string name="Popular_Stories_Title">"Popüler Hikayeler"</string>
+    <string name="No_Popular_Story">"Popüler Hikaye Bulunamadı"</string>
+    <!-- endregion -->
+
+    <!-- region Favorite Stories -->
+    <string name="Favorite_Stories_Title">"Favori Hikayeler"</string>
+    <string name="No_Favorite_Story">"Favori Hikaye Bulunamadı"</string>
+    <!-- endregion -->
+    <!-- endregion -->
+
+    <!-- region EncyclopediaActivity -->
+    <string name="Encyclopedia_Title">"Ansiklopedi"</string>
+    <string name="No_Character">"Karakter Bulunamadı"</string>
+    <!-- endregion -->
+
+    <!-- region GalleryActivity -->
+    <string name="Gallery_Title">"Galeri"</string>
+    <string name="No_Picture">"Resim Bulunamadı"</string>
+    <string name="Picture_Count">"%d resim"</string>
+    <string name="Picture_Count_Sample">"10 resim"</string>
+    <!-- endregion -->
+
+    <!-- region StoryActivity -->
+    <string name="Story_Title">"Hikaye"</string>
+    <string name="Story_Title_Sample">"\"Okumayı Seven Çocuk\""</string>
+    <string name="Story_Content_Sample">"Bir zamanlar okumayı seven bir çocuk vardı. Bu çocuk eline geçen her şeyi okurdu ve çok sevdiği bir kitap dükkanı vardı. Bir gün, çocuk kitapçıdaki kitaplardan ona önerilen kitapların tümünü okuduğunu fark etti. Dükkan sahibinin yanına gitti ve ona okumadığı herhangi bir kitaba sahip olup olmadığını sordu. Satıcı olduğunu söyledi ve ismi \"Ölüm\" olan bir kitabı çıkardı. Kitabı çocuğa indirimli fiyatı ile mutlu bir şekilde sattı, fiyatı 50 Dolardı.\n\nAncak, çocuğu ilk sayfayı okumaması konusunda uyardı. Çocuk evine döndü ve kitabı okudu, çok beğenmişti. Ama ilk sayfada ne olabileceğini hep merak etti, hep aklının bir köşesinde duruyordu bu merak. Bir gün bu merak duygusu çok fazla geldi, ilk sayfayı açtı ve kitabı dehşet içinde elinden düşürdü.\n\nİlk sayfada kalın harflerle, kitabın fiyatının 7.99 Dolar olduğu yazıyordu…"</string>
+    <string name="Story_Author_Label">"Çeviren: "</string>
+    <string name="Story_Author_Sample">"Rei Shizuka"</string>
+    <string name="Story_Length_Label">"Okuma Süresi: "</string>
+    <string name="Story_Length">"%.1f dakika"</string>
+    <string name="Story_Length_Sample">"1,0 dakika"</string>
+    <!-- endregion -->
+
+    <!-- region PrefActivity -->
+    <string name="Pref_Title">"Tercihler"</string>
+
+    <string name="App_Version">"Versiyon: %s"</string>
+    <string name="App_Version_Sample">"Versiyon: 2.0"</string>
+
+    <!-- region PrefFragment -->
+    <string name="Font">"Hikaye Yazı Tipi"</string>
+    <string name="Font_Arial">"Varsayılan"</string>
+
+    <string name="Font_Size">"Hikaye Yazı Boyutu"</string>
+    <string name="Font_Size_S">"Küçük"</string>
+    <string name="Font_Size_M">"Varsayılan"</string>
+    <string name="Font_Size_L">"Büyük"</string>
+    <string name="Font_Size_XL">"Çok Büyük"</string>
+    <!-- endregion -->
+
+    <!-- region InfoFragment -->
+    <string name="Terms_Title">"Kullanım Koşulları"</string>
+    <string name="Terms_Content">"Creepyone\'da yayınlanan hikayeler nedeniyle kullanıcıların herhangi bir sorun yaşaması halinde uygulamanın geliştiricisi ve hikayelerin yazarları/çevirmenleri herhangi bir sorumluluk kabul etmemektedir.\n\nUygulamayı indirip kullanmaya başlamanız, uygulama içeriğinin bilincinde olduğunuzu ve hikayeleri okuyup okumama kararının tamamen size ait olduğunu kabul ettiğinizi gösterir. Bu durumda hikayelerin sebep olabileceği etkilerin sorumluluğu da tamamen size aittir.\n\nEğer 18 yaşından küçükseniz veya korku hikayelerinden olumsuz şekilde etkileniyorsanız, Creepyone uygulamasını kullanmamanızı tavsiye ederim.\n\nAnlayışınız için teşekkürler.\n\nPureBlack Software"</string>
+    <string name="Terms_Accept">"KABUL ET"</string>
+    <string name="Terms_Reject">"REDDET"</string>
+
+    <string name="About_Title">"Uygulama Hakkında"</string>
+    <string name="About_Content">
+        "Herkese Merhaba!\n\nSizlere uzun ve zorlu bir geliştirme sürecinin ardından tamamlayabildiğim Creepyone\'ı sunmaktan mutluluk duyuyorum…\n\nBu uygulamayı okumaktan çok hoşlandığım hikayeleri bir araya getirip daha büyük kitlelere ulaştırabilmek ve Creepypasta severlerin istedikleri yerde, istedikleri zaman, internet erişimleri olmasa dahi Creepypasta evrenine dalabilmelerini sağlamak için geliştirdim.\n\nTabi ki Creepyone\'ı varedenler internet üzerindeki Creepypasta topluluklarıdır. Bu yüzden kendilerine ulaşamadığım için izinlerini alamadan hikayelerini uygulamaya eklediğim yazarlar ve çevirmenlerden özür diliyorum.\n\nUmarım Creepyone\'dan memnun kalırsınız ve daha iyi bir seviyeye gelmesi için yorumlarınızı ve önerilerinizi eksik etmezsiniz.\n\nİyi eğlenceler :)"
+
+        \n\n"PureBlack Software"
+        \n<a href="https://twitter.com/PureBlackSoft">"twitter.com/PureBlackSoft" </a>
+        \n<a href="https://instagram.com/pureblacksoft">"instagram.com/pureblacksoft" </a>
+
+        \n\n"Referanslar:"
+        \n<a href="http://creepypastaturkce.blogspot.com">"creepypastaturkce.blogspot.com" </a>
+
+        \n\n"Kaynaklar:"
+        \n<a href="https://flaticon.com">"flaticon.com" </a>
+        \n<a href="https://pixabay.com">"pixabay.com" </a>
+        \n<a href="https://giphy.com">"giphy.com" </a>
+    </string>
+    <!-- endregion -->
+    <!-- endregion -->
+
+    <!-- region Manage Dialog -->
+    <string name="Manage_Apply">"Uygula"</string>
+    <string name="Manage_Cancel">"İptal Et"</string>
+
+    <string name="Filter_Title">"Filtrele"</string>
+    <string name="Filter_All">"Tüm Hikayeler"</string>
+    <string name="Filter_Unread">"Okunmamış Hikayeler"</string>
+
+    <string name="Sort_Title">"Sırala"</string>
+    <string name="Sort_Date_New">"Tarih (Yeniden Eskiye)"</string>
+    <string name="Sort_Date_Old">"Tarih (Eskiden Yeniye)"</string>
+    <string name="Sort_Length_Asc">"Uzunluk (Artan)"</string>
+    <string name="Sort_Length_Desc">"Uzunluk (Azalan)"</string>
+    <!-- endregion -->
+
+    <!-- region Toast -->
+    <string name="Sync_Successful_Toast">"Senkronizasyon Başarılı  (\u2713)"</string>
+    <string name="Sync_Failed_Toast">"Senkronizasyon Başarısız  (X)"</string>
+    <string name="New_Story_Toast">"Yeni hikayeler var!"</string>
+    <string name="Back_Toast">"Çıkmak için tekrar basın"</string>
+    <string name="Favorite_Toast">"Favorilere eklendi"</string>
+    <string name="Readed_Toast">"Okundu olarak işaretlendi"</string>
+    <string name="No_Story_Toast">"Hikaye bulunamadı"</string>
+    <!-- endregion -->
+</resources>

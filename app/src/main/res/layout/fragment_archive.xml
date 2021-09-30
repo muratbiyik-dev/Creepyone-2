@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PureRoot.Relative"
+    tools:ignore="UseCompoundDrawables,ContentDescription"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginHorizontal="@dimen/App_Margin_Hor_S"
+        style="@style/PureHeader.Scroll"
+        >
+        <LinearLayout
+            style="@style/PureHeader.Linear"
+            >
+            <ImageView
+                android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                android:src="@drawable/img_archive"
+                style="@style/PureHeader.Image"
+                />
+            <LinearLayout
+                android:id="@+id/llEncyclopediaAF"
+                android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                android:visibility="gone"
+                style="@style/PureButton.Linear.Card.Selectable"
+                >
+                <ImageView
+                    android:layout_marginEnd="@dimen/App_Margin_Hor_M"
+                    android:src="@drawable/ic_encyclopedia_bwhite"
+                    style="@style/PureButton.Image"
+                    />
+                <TextView
+                    android:text="@string/Encyclopedia_Title"
+                    style="@style/PureButton.Text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llGalleryAF"
+                android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+                style="@style/PureButton.Linear.Card.Selectable"
+                >
+                <ImageView
+                    android:layout_marginEnd="@dimen/App_Margin_Hor_M"
+                    android:src="@drawable/ic_gallery_bwhite"
+                    style="@style/PureButton.Image"
+                    />
+                <TextView
+                    android:text="@string/Gallery_Title"
+                    style="@style/PureButton.Text"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

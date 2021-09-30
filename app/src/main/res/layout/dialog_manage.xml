@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="@dimen/Dialog_MinWidth"
+    style="@style/PureDialog.Linear.Card"
+    >
+    <TextView
+        android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+        android:text="@string/Filter_Title"
+        style="@style/PureDialog.Text"
+        />
+    <TextView
+        android:id="@+id/tvFilterMD"
+        android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+        android:text="@string/Filter_All"
+        style="@style/PureButton.Text.Card.Selectable.Center"
+        />
+    <Spinner
+        android:id="@+id/sFilterMD"
+        android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+        android:prompt="@string/Filter_Title"
+        style="@style/PureSelection.Spinner.Dialog"
+        />
+
+    <TextView
+        android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+        android:text="@string/Sort_Title"
+        style="@style/PureDialog.Text"
+        />
+    <TextView
+        android:id="@+id/tvSortMD"
+        android:layout_marginBottom="@dimen/App_Margin_Ver_S"
+        android:text="@string/Sort_Date_New"
+        style="@style/PureButton.Text.Card.Selectable.Center"
+        />
+    <Spinner
+        android:id="@+id/sSortMD"
+        android:layout_marginBottom="@dimen/App_Margin_Ver_M"
+        android:prompt="@string/Sort_Title"
+        style="@style/PureSelection.Spinner.Dialog"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/App_Margin_Ver_M"
+        style="@style/PureButton.Linear"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/tvCamcelMD"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/App_Margin_Hor_M"
+            android:text="@string/Manage_Cancel"
+            style="@style/PureButton.Text.Card.Selectable.Center.Width0"
+            />
+        <TextView
+            android:id="@+id/tvApplyMD"
+            android:layout_weight="1"
+            android:text="@string/Manage_Apply"
+            style="@style/PureButton.Text.Card.Selectable.Center.Width0"
+            />
+    </LinearLayout>
+</LinearLayout>

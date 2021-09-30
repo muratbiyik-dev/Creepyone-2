@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name" translatable="false">Creepyone</string>
+
+    <!-- region Content Description -->
+    <string name="CD_IMAGE" translatable="false">"Image"</string>
+    <string name="CD_ICON" translatable="false">"Icon"</string>
+    <!-- endregion -->
+
+    <!-- region Mobile Ads -->
+    <string name="AD_UNIT_ID" translatable="false">"ca-app-pub-3940256099942544/6300978111"</string>
+    <!-- Test Ad ID: ca-app-pub-3940256099942544/6300978111 -->
+    <!-- Real Ad ID: ca-app-pub-9263969574014176/5435163819 -->
+    <!-- endregion -->
+
+    <!-- region MainActivity -->
+    <!-- region Progress Bar -->
+    <string name="Checking_Stories">"Checking for new stories…"</string>
+    <string name="Downloading_Stories">"Downloading stories…"</string>
+    <!-- endregion -->
+
+    <!-- region App Rating -->
+    <string name="App_Rating_Title">"Rate this app"</string>
+    <string name="App_Rating_Content">"If you enjoy stories in Creepyone, would you mind taking a moment to rate the application? It won't take more than a few seconds. Thank you for your support."</string>
+    <string name="App_Rating_Positive">"YES, SURE"</string>
+    <string name="App_Rating_Negative">"NO, THANKS"</string>
+    <string name="App_Rating_Neutral">"REMIND ME LATER"</string>
+    <!-- endregion -->
+
+    <!-- region HomeFragment -->
+    <string name="Home_Title">"Home"</string>
+
+    <string name="Download_Wait">"Please wait for download to finish"</string>
+    <string name="Download_Fail_Title">"Download Failed!"</string>
+    <string name="Download_Fail_Connection">"Please make sure your device is connected to the internet and try again."</string>
+    <string name="Download_Fail_Server">"The problem may be server originated. Please try again later."</string>
+    <string name="Download_Try_Again">"Try Again"</string>
+
+    <string name="No_Unread_Story">"No Unread Stories Found"</string>
+    <!-- endregion -->
+
+    <!-- region SearchFragment -->
+    <string name="Search_Title">"Search"</string>
+    <string name="Query_Hint">"Are you looking for a story?"</string>
+    <string name="No_Result">"No Results Found"</string>
+    <string name="Random_Story_Title">"Random Story"</string>
+    <!-- endregion -->
+
+    <!-- region ArchiveFragment -->
+    <string name="Archive_Title">"Archive"</string>
+    <!-- endregion -->
+    <!-- endregion -->
+
+    <!-- region ListActivity -->
+    <string name="Story_Count">"%d story"</string>
+    <string name="Story_Count_Sample">"8 story"</string>
+
+    <!-- region Popular Stories -->
+    <string name="Popular_Stories_Title">"Popular Stories"</string>
+    <string name="No_Popular_Story">"No Popular Stories Found"</string>
+    <!-- endregion -->
+
+    <!-- region Favorite Stories -->
+    <string name="Favorite_Stories_Title">"Favorite Stories"</string>
+    <string name="No_Favorite_Story">"No Favorite Stories Found"</string>
+    <!-- endregion -->
+    <!-- endregion -->
+
+    <!-- region EncyclopediaActivity -->
+    <string name="Encyclopedia_Title">"Encyclopedia"</string>
+    <string name="No_Character">"No Characters Found"</string>
+    <!-- endregion -->
+
+    <!-- region GalleryActivity -->
+    <string name="Gallery_Title">"Gallery"</string>
+    <string name="No_Picture">"No Pictures Found"</string>
+    <string name="Picture_Count">"%d picture"</string>
+    <string name="Picture_Count_Sample">"10 picture"</string>
+    <!-- endregion -->
+
+    <!-- region StoryActivity -->
+    <string name="Story_Title">"Story"</string>
+    <string name="Story_Title_Sample">"\"The Boy Who Loved To Read\""</string>
+    <string name="Story_Content_Sample">"Once, there was a boy who loved to read. He read everything he could get his hands on, and loved going to his favorite book store. One day, the boy realized he had read everything the store had to offer. He confronted the owner, and asked him if he had anything the boy had never checked out. The owner said why, yes, I do, and pulled out a book called “Death”. He gladly sold it to the boy at a discounted price of 50$.\n\nHowever, he warned the boy, never to read the front page. Well, the boy returned to his house and read the book, and he was content. However, he always wondered, what could be on that front page, it was always in the back of his mind. One day, the temptation was too much for the boy, and he flipped to the very front of the book, and dropped the book in HORROR.\n\nThere, in bold print, was MSRP $7.99"</string>
+    <string name="Story_Author_Label">"Credit to: "</string>
+    <string name="Story_Author_Sample">"Anonymous"</string>
+    <string name="Story_Length_Label">"Reading Time: "</string>
+    <string name="Story_Length">"%.1f minute"</string>
+    <string name="Story_Length_Sample">"1,0 minute"</string>
+    <!-- endregion -->
+
+    <!-- region PrefActivity -->
+    <string name="Pref_Title">"Preferences"</string>
+
+    <string name="App_Version">"Version: %s"</string>
+    <string name="App_Version_Sample">"Version: 2.0"</string>
+
+    <!-- region PrefFragment -->
+    <string name="Font">"Story Font"</string>
+    <string name="Font_Arial">"Default"</string>
+    <string name="Font_Georgia" translatable="false">"Georgia"</string>
+    <string name="Font_Comfortaa" translatable="false">"Comfortaa"</string>
+    <string name="Font_Montserrat" translatable="false">"Montserrat"</string>
+
+    <string name="Font_Size">"Story Font Size"</string>
+    <string name="Font_Size_S">"Small"</string>
+    <string name="Font_Size_M">"Default"</string>
+    <string name="Font_Size_L">"Large"</string>
+    <string name="Font_Size_XL">"Largest"</string>
+    <!-- endregion -->
+
+    <!-- region InfoFragment -->
+    <string name="Terms_Title">"Terms of Use"</string>
+    <string name="Terms_Content">"If users experience any problems due to the stories published in Creepyone, the developer of the application and the authors/translators of the stories do not accept any responsibility.\n\nDownloading and starting to use the application means that you are aware of the app content and agree to the decision of whether or not to read the stories is belong to you. In this case, you are entirely responsible for the effects that stories may cause.\n\nIf you are under the age of 18 or negatively affecting by horror stories, I recommend you not using The Creepyone application.\n\nThank you for your understanding.\n\nPureBlack Software"</string>
+    <string name="Terms_Accept">"ACCEPT"</string>
+    <string name="Terms_Reject">"REJECT"</string>
+
+    <string name="About_Title">"About Application"</string>
+    <string name="About_Content">
+        "Hello Everyone!\n\nAfter a long and difficult development process, I\'m pleased from presenting to you The Creepyone…\n\nI developed this application for bringing together stories that I liked to read, transmitting them to a larger crowd and allowing Creepypasta fans to dive into Creepypasta universe wherever or whenever they want even they don\'t have internet access.\n\nOf course, those who allowed to creation of Creepyone are Creepypasta communities on the internet. Therefore, I\'m apologizing to writers and translators who I added their stories to the application without getting their permission because I couldn\'t reach them.\n\nI hope you will be satisfied with Creepyone and won\'t skimp your comments and suggestions for a better application.\n\nHave fun :)"
+
+        \n\n"PureBlack Software"
+        \n<a href="https://twitter.com/PureBlackSoft">"twitter.com/PureBlackSoft" </a>
+        \n<a href="https://instagram.com/pureblacksoft">"instagram.com/pureblacksoft" </a>
+
+        \n\n"References:"
+        \n<a href="https://creepypasta.com">"creepypasta.com" </a>
+        \n<a href="https://creepypasta.org">"creepypasta.org" </a>
+        \n<a href="https://creepypasta.fandom.com">"creepypasta.fandom.com" </a>
+        \n<a href="https://scaryforkids.com">"scaryforkids.com" </a>
+        \n<a href="https://reddit.com/r/nosleep">"reddit.com/r/nosleep" </a>
+
+        \n\n"Resources:"
+        \n<a href="https://flaticon.com">"flaticon.com" </a>
+        \n<a href="https://pixabay.com">"pixabay.com" </a>
+        \n<a href="https://giphy.com">"giphy.com" </a>
+    </string>
+    <!-- endregion -->
+    <!-- endregion -->
+
+    <!-- region Manage Dialog -->
+    <string name="Manage_Apply">"Apply"</string>
+    <string name="Manage_Cancel">"Cancel"</string>
+
+    <string name="Filter_Title">"Filter"</string>
+    <string name="Filter_All">"All Stories"</string>
+    <string name="Filter_Unread">"Unread Stories"</string>
+
+    <string name="Sort_Title">"Sort"</string>
+    <string name="Sort_Date_New">"Date (New to Old)"</string>
+    <string name="Sort_Date_Old">"Date (Old to New)"</string>
+    <string name="Sort_Length_Asc">"Length (Ascending)"</string>
+    <string name="Sort_Length_Desc">"Length (Descending)"</string>
+    <!-- endregion -->
+
+    <!-- region Toast -->
+    <string name="Sync_Successful_Toast">"Sync Successful  (\u2713")</string>
+    <string name="Sync_Failed_Toast">"Sync Failed  (X)"</string>
+    <string name="New_Story_Toast">"There are new stories!"</string>
+    <string name="Back_Toast">"Press again to leave"</string>
+    <string name="Favorite_Toast">"Added to favorites"</string>
+    <string name="Readed_Toast">"Marked as readed"</string>
+    <string name="No_Story_Toast">"No stories found"</string>
+    <!-- endregion -->
+</resources>

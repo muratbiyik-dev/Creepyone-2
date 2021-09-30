@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PureRoot.Relative"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginHorizontal="@dimen/App_Margin_Hor_S"
+        style="@style/PureInfo.Scroll"
+        >
+        <LinearLayout
+            style="@style/PureInfo.Linear.Card"
+            >
+            <TextView
+                android:id="@+id/tvTitleIF"
+                android:layout_marginTop="@dimen/App_Margin_Ver_S"
+                android:layout_marginBottom="@dimen/App_Margin_Ver_M"
+                android:text="@string/About_Title"
+                style="@style/PureInfo.Text.Title"
+                />
+            <TextView
+                android:id="@+id/tvContentIF"
+                android:text="@string/About_Content"
+                style="@style/PureInfo.Text.Content.Article"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

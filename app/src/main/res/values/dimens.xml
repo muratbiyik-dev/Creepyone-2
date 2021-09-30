@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- region App -->
+    <dimen name="App_Margin_S">5dp</dimen>
+    <dimen name="App_Margin_M">10dp</dimen>
+    <dimen name="App_Margin_Hor_S">5dp</dimen>
+    <dimen name="App_Margin_Hor_M">10dp</dimen>
+    <dimen name="App_Margin_Ver_S">5sp</dimen>
+    <dimen name="App_Margin_Ver_M">10sp</dimen>
+
+    <dimen name="App_Padding_S">5dp</dimen>
+    <dimen name="App_Padding_M">10dp</dimen>
+    <dimen name="App_Padding_Hor_S">5dp</dimen>
+    <dimen name="App_Padding_Hor_M">10dp</dimen>
+    <dimen name="App_Padding_Ver_S">5sp</dimen>
+    <dimen name="App_Padding_Ver_M">10sp</dimen>
+    <!-- endregion -->
+
+    <!-- region Toolbar -->
+    <dimen name="Toolbar_Height">50dp</dimen>
+    <dimen name="Toolbar_TextSize_M">18dp</dimen>
+    <dimen name="Toolbar_TextSize_XL">22dp</dimen>
+    <!-- endregion -->
+
+    <!-- region Searchbar -->
+    <dimen name="Searchbar_Height">45sp</dimen>
+    <dimen name="Searchbar_TextSize_M">18sp</dimen>
+    <!-- endregion -->
+
+    <!-- region Progress -->
+    <dimen name="Progress_Height">25dp</dimen>
+    <!-- endregion -->
+
+    <!-- region Button -->
+    <dimen name="Button_Height">50sp</dimen>
+    <dimen name="Button_TextSize">20sp</dimen>
+    <!-- endregion -->
+
+    <!-- region Selection -->
+    <dimen name="Selection_Height">50sp</dimen>
+    <dimen name="Selection_TextWidth">125dp</dimen>
+    <dimen name="Selection_TextHeight">45sp</dimen>
+    <dimen name="Selection_TextSize">18sp</dimen>
+    <!-- endregion -->
+
+    <!-- region CheckBox -->
+    <dimen name="CheckBox_Width">32dp</dimen>
+    <dimen name="CheckBox_Height">32dp</dimen>
+    <!-- endregion -->
+
+    <!-- region Dialog -->
+    <dimen name="Dialog_MinWidth">400dp</dimen>
+    <dimen name="Dialog_TextSize">16sp</dimen>
+    <!-- endregion -->
+
+    <!-- region Info -->
+    <dimen name="Info_Bar_Height">50sp</dimen>
+    <dimen name="Info_TextSize_S">16sp</dimen>
+    <dimen name="Info_TextSize_L">20sp</dimen>
+    <!-- endregion -->
+
+    <!-- region Story -->
+    <dimen name="Story_Content_TextSize_S">14dp</dimen>
+    <dimen name="Story_Footer_TextSize_S">16dp</dimen>
+    <dimen name="Story_Title_TextSize_S">18dp</dimen>
+
+    <dimen name="Story_Content_TextSize_M">16dp</dimen>
+    <dimen name="Story_Footer_TextSize_M">18dp</dimen>
+    <dimen name="Story_Title_TextSize_M">20dp</dimen>
+
+    <dimen name="Story_Content_TextSize_L">18dp</dimen>
+    <dimen name="Story_Footer_TextSize_L">20dp</dimen>
+    <dimen name="Story_Title_TextSize_L">22dp</dimen>
+
+    <dimen name="Story_Content_TextSize_XL">20dp</dimen>
+    <dimen name="Story_Footer_TextSize_XL">22dp</dimen>
+    <dimen name="Story_Title_TextSize_XL">24dp</dimen>
+    <!-- endregion -->
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="maroon">#800000</color>
+    <color name="gray">#808080</color>
+    <color name="storm_blue">#31429e</color>
+    <color name="storm_blue_light">#7180d3</color>
+    <color name="navy_blue">#010413</color>
+    <color name="bright_red">#e71837</color>
+    <color name="bright_red_light">#ed5269</color>
+    <color name="dark_white">#cccccc</color>
+    <color name="light_black">#121212</color>
+
+    <!-- region App -->
+    <color name="App_PrimaryColor">@color/black</color>
+    <color name="App_SecondaryColor">@color/white</color>
+    <!-- endregion -->
+
+    <!-- region Toolbar -->
+    <color name="Toolbar_TextColor">@color/white</color>
+    <!-- endregion -->
+
+    <!-- region Button -->
+    <color name="Button_BorderColor">@color/white</color>
+    <color name="Button_BackColor">@color/maroon</color>
+    <color name="Button_TextColor">@color/white</color>
+    <!-- endregion -->
+
+    <!-- region Selection -->
+    <color name="Selection_TextColor">@color/gray</color>
+    <!-- endregion -->
+
+    <!-- region Ripple -->
+    <color name="Ripple_ForeColor">@color/white</color>
+    <color name="Ripple_BackColor">@color/gray</color>
+    <!-- endregion -->
+
+    <!-- region Dialog -->
+    <color name="Dialog_BorderColor">@color/white</color>
+    <color name="Dialog_BackColor">@color/black</color>
+    <color name="Dialog_TextColor">@color/white</color>
+    <!-- endregion -->
+
+    <!-- region Info -->
+    <color name="Info_BorderColor">@color/storm_blue_light</color>
+    <color name="Info_BackColor">@color/navy_blue</color>
+    <color name="Info_Title_TextColor">@color/storm_blue</color>
+    <color name="Info_Content_TextColor">@color/storm_blue_light</color>
+    <!-- endregion -->
+
+    <!-- region Story -->
+    <color name="Story_BorderColor">@color/dark_white</color>
+    <color name="Story_BackColor">@color/light_black</color>
+    <color name="Story_Title_TextColor">@color/bright_red</color>
+    <color name="Story_Title_Readed_TextColor">@color/bright_red_light</color>
+    <color name="Story_Content_TextColor">@color/dark_white</color>
+    <color name="Story_Footer_TextColor">@color/bright_red</color>
+    <color name="Story_Footer_Label_TextColor">@color/gray</color>
+    <!-- endregion -->
+</resources>

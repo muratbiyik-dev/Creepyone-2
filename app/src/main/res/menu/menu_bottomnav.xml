@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/itmHome"
+        android:icon="@drawable/selector_home"
+        android:title="@string/Home_Title"
+        />
+    <item
+        android:id="@+id/itmSearch"
+        android:icon="@drawable/selector_search"
+        android:title="@string/Search_Title"
+        />
+    <item
+        android:id="@+id/itmArchive"
+        android:icon="@drawable/selector_archive"
+        android:title="@string/Archive_Title"
+        />
+</menu>

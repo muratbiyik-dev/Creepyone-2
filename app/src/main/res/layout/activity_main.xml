@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity"
+    tools:ignore="ContentDescription"
+    style="@style/PureRoot.Coordinator"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/PureToolbar.Appbar"
+        >
+        <Toolbar
+            tools:ignore="SpUsage"
+            style="@style/PureToolbar.Toolbar.Top"
+            >
+            <RelativeLayout
+                style="@style/PureToolbar.Relative"
+                >
+                <ImageView
+                    android:id="@+id/ivIconMTB"
+                    android:layout_marginHorizontal="@dimen/App_Margin_Hor_M"
+                    android:src="@drawable/ic_home_bwhite"
+                    style="@style/PureToolbar.Image"
+                    />
+                <TextView
+                    android:id="@+id/tvTitleMTB"
+                    android:layout_toEndOf="@+id/ivIconMTB"
+                    android:text="@string/Home_Title"
+                    style="@style/PureToolbar.Text"
+                    />
+                <ProgressBar
+                    android:id="@+id/pbSyncingMTB"
+                    android:visibility="gone"
+                    style="@style/PureToolbar.Progress"
+                    />
+                <ImageView
+                    android:id="@+id/ivButtonMTB"
+                    android:layout_marginHorizontal="@dimen/App_Margin_Hor_S"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/ic_manage_bwhite"
+                    style="@style/PureToolbar.Image.Selectable"
+                    />
+            </RelativeLayout>
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/containerMA"
+        style="@style/PureHeader.Container.Scrollable"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavMA"
+        app:menu="@menu/menu_bottomnav"
+        style="@style/PureBottomNav"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

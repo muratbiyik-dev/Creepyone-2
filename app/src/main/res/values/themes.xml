@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <!-- Base application theme. -->
+    <style
+        name="Theme.Creepyone"
+        parent="Theme.MaterialComponents.DayNight.DarkActionBar"
+        >
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/App_PrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/App_PrimaryColor</item>
+        <item name="colorOnPrimary">@color/App_PrimaryColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/App_SecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/App_SecondaryColor</item>
+        <item name="colorOnSecondary">@color/App_SecondaryColor</item>
+        <!-- Status bar color. -->
+        <item
+            name="android:statusBarColor"
+            tools:targetApi="l"
+            >
+            ?attr/colorPrimaryVariant
+        </item>
+        <!-- Customize your theme here. -->
+
+        <item name="actionBarSize">@dimen/Toolbar_Height</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style
+        name="AlertDialogTheme"
+        parent="Theme.MaterialComponents.Dialog.Alert"
+        >
+        <item name="android:background">@color/Dialog_BackColor</item>
+    </style>
+</resources>

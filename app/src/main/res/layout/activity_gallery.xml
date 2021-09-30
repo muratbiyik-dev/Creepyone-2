@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.GalleryActivity"
+    tools:ignore="ContentDescription"
+    style="@style/PureRoot.Coordinator"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/PureToolbar.Appbar"
+        >
+        <Toolbar
+            tools:ignore="SpUsage"
+            style="@style/PureToolbar.Toolbar.Top"
+            >
+            <RelativeLayout
+                style="@style/PureToolbar.Relative"
+                >
+                <ImageView
+                    android:id="@+id/ivIconGTB"
+                    android:layout_marginHorizontal="@dimen/App_Margin_Hor_M"
+                    android:src="@drawable/ic_gallery_bwhite"
+                    style="@style/PureToolbar.Image"
+                    />
+                <TextView
+                    android:id="@+id/tvTitleGTB"
+                    android:layout_toEndOf="@+id/ivIconGTB"
+                    android:text="@string/Gallery_Title"
+                    style="@style/PureToolbar.Text"
+                    />
+            </RelativeLayout>
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        style="@style/PureHeader.Relative.Scrollable"
+        >
+        <TextView
+            android:id="@+id/tvNoPictureGA"
+            android:layout_margin="@dimen/App_Margin_S"
+            android:text="@string/No_Picture"
+            android:visibility="gone"
+            style="@style/PureInfo.Text.Content.Card"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewGA"
+            android:layout_marginHorizontal="@dimen/App_Margin_Hor_S"
+            style="@style/PureStory.Recycler"
+            />
+    </RelativeLayout>
+
+    <Toolbar
+        style="@style/PureToolbar.Toolbar.Bottom"
+        >
+        <RelativeLayout
+            style="@style/PureToolbar.Relative"
+            >
+            <ImageView
+                android:id="@+id/ivBackGTB"
+                android:layout_marginHorizontal="@dimen/App_Margin_Hor_S"
+                android:src="@drawable/ic_back_bwhite"
+                style="@style/PureToolbar.Image.Selectable"
+                />
+            <TextView
+                android:id="@+id/tvCountGTB"
+                android:layout_marginHorizontal="@dimen/App_Margin_Hor_M"
+                android:layout_alignParentEnd="true"
+                android:text="@string/Picture_Count_Sample"
+                style="@style/PureToolbar.Text.Box"
+                />
+        </RelativeLayout>
+    </Toolbar>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
